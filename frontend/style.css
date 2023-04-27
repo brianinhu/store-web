@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: darkblue;
+}
+
+header #col1 {
+    background-color: darkblue;
+    height: 30vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header #col1 p {
+    margin: 0;
+    font-size: 2rem;
+    color: #fff;
+}
+
+nav {
+    background-color: darkcyan;
+}
+
+nav #col1 {
+    background-color: darkcyan;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav #col1 p {
+    margin: 0;
+    font-size: 1rem;
+    color: #fff;
+}
+
+nav #col2 {
+    background-color: darkcyan;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav #col2 p {
+    margin: 0;
+    font-size: 1rem;
+    color: #fff;
+}
+
+nav #col3 {
+    background-color: darkcyan;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav #col3 p {
+    margin: 0;
+    font-size: 1rem;
+    color: #fff;
+}
+
+nav #col4 {
+    background-color: darkcyan;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav #col4 p {
+    margin: 0;
+    font-size: 1rem;
+    color: #fff;
+}
+
+section {
+    background-color: darkgoldenrod;
+}
+
+section #col1 {
+    background-color: darkgoldenrod;
+    height: 90vh;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section #col1 p {
+    margin: 0;
+    font-size: 2rem;
+    color: #fff;
+}
+
+section #col2 {
+    background-color: darkgoldenrod;
+    height: 90vh;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section #col2 p {
+    margin: 0;
+    font-size: 2rem;
+    color: #fff;
+}
+
+section #col3 {
+    background-color: darkgoldenrod;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section #col3 p {
+    margin: 0;
+    font-size: 2rem;
+    color: #fff;
+}
+
+
+footer {
+    background-color: darkmagenta;
+}
+
+footer #col1 {
+    background-color: darkmagenta;
+    min-height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer #col1 p {
+    margin: 0;
+    font-size: 2rem;
+    color: #fff;
+}
