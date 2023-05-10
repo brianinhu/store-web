@@ -4,8 +4,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header-top #row1 #col1{
-    background-color: darkgoldenrod;
+header-top #col1 {
+    background-color: #FFDD00;
     height: 10vh;
     display: flex;
     justify-content: center;
@@ -13,7 +13,7 @@ header-top #row1 #col1{
 
 }
 
-header-top #row1 p{
+header-top #col1 p {
     margin: 0;
     font-size: 1.2rem;
     color: #fff;
@@ -95,7 +95,7 @@ nav #col4 p {
 }
 
 section #row1 #col1 {
-    background-color: darkgoldenrod;
+    background-color: #FFDD00;
     height: 90vh;
     border-bottom: 1px solid black;
     display: flex;
@@ -110,7 +110,7 @@ section #row1 #col1 p {
 }
 
 section #row2 #col1 {
-    background-color: darkgoldenrod;
+    background-color: #FFDD00;
     height: 90vh;
     border-bottom: 1px solid black;
     display: flex;
@@ -125,7 +125,7 @@ section #row2 #col1 p {
 }
 
 section #row3 #col1 {
-    background-color: darkgoldenrod;
+    background-color: #FFDD00;
     height: 90vh;
     display: flex;
     justify-content: center;
