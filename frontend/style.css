@@ -4,7 +4,22 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header #col1 {
+header-top #row1 #col1{
+    background-color: darkgoldenrod;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header-top #row1 p{
+    margin: 0;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+header-button #col1 {
     background-color: darkblue;
     height: 30vh;
     text-align: center;
@@ -13,7 +28,7 @@ header #col1 {
     align-items: center;
 }
 
-header #col1 p {
+header-button #col1 p {
     margin: 0;
     font-size: 2rem;
     color: #fff;
@@ -79,7 +94,7 @@ nav #col4 p {
     color: #fff;
 }
 
-section #col1 {
+section #row1 #col1 {
     background-color: darkgoldenrod;
     height: 90vh;
     border-bottom: 1px solid black;
@@ -88,13 +103,13 @@ section #col1 {
     align-items: center;
 }
 
-section #col1 p {
+section #row1 #col1 p {
     margin: 0;
     font-size: 2rem;
     color: #fff;
 }
 
-section #col2 {
+section #row2 #col1 {
     background-color: darkgoldenrod;
     height: 90vh;
     border-bottom: 1px solid black;
@@ -103,13 +118,13 @@ section #col2 {
     align-items: center;
 }
 
-section #col2 p {
+section #row2 #col1 p {
     margin: 0;
     font-size: 2rem;
     color: #fff;
 }
 
-section #col3 {
+section #row3 #col1 {
     background-color: darkgoldenrod;
     height: 90vh;
     display: flex;
@@ -117,7 +132,7 @@ section #col3 {
     align-items: center;
 }
 
-section #col3 p {
+section #row3 #col1 p {
     margin: 0;
     font-size: 2rem;
     color: #fff;
