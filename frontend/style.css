@@ -6,11 +6,10 @@ body {
 
 header-top #col1 {
     background-color: #FFDD00;
-    height: 10vh;
+    height: 6vh;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 header-top #col1 p {
@@ -20,22 +19,48 @@ header-top #col1 p {
 }
 
 header-button #col1 {
-    background-color: darkblue;
-    height: 30vh;
+    background-color: #fff;
+    height: 15vh;
     text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
-header-button #col1 p {
-    margin: 0;
+header-button .logo img {
+    width: 100px;
+}
+
+header-button nav {
+    display: flex;
+    color: #FEFEDF;
+    font-weight: 500;
+}
+
+header-button nav a {
+    margin-right: 1rem;
+}
+
+header-button nav a:hover > i, header-button nav a:hover > span{
+    color: #f0bf0f;
+    transition: color 0.3s ease-in-out;
+}
+
+header-button nav span {
+    display: block;
+}
+
+header-button nav i {
     font-size: 2rem;
-    color: #fff;
+}
+
+nav .col-3 {
+    background-color: #FEFEDF;
 }
 
 nav #col1 {
-    background-color: darkcyan;
     height: 10vh;
     text-align: center;
     display: flex;
@@ -50,7 +75,6 @@ nav #col1 p {
 }
 
 nav #col2 {
-    background-color: darkcyan;
     height: 10vh;
     text-align: center;
     display: flex;
@@ -65,7 +89,6 @@ nav #col2 p {
 }
 
 nav #col3 {
-    background-color: darkcyan;
     height: 10vh;
     text-align: center;
     display: flex;
@@ -80,7 +103,6 @@ nav #col3 p {
 }
 
 nav #col4 {
-    background-color: darkcyan;
     height: 10vh;
     text-align: center;
     display: flex;
@@ -95,7 +117,7 @@ nav #col4 p {
 }
 
 section #row1 #col1 {
-    background-color: #FFDD00;
+    background-color: #D5CABD;
     height: 90vh;
     border-bottom: 1px solid black;
     display: flex;
@@ -110,7 +132,7 @@ section #row1 #col1 p {
 }
 
 section #row2 #col1 {
-    background-color: #FFDD00;
+    background-color: #D5CABD;
     height: 90vh;
     border-bottom: 1px solid black;
     display: flex;
@@ -125,7 +147,7 @@ section #row2 #col1 p {
 }
 
 section #row3 #col1 {
-    background-color: #FFDD00;
+    background-color: #D5CABD;
     height: 90vh;
     display: flex;
     justify-content: center;
@@ -139,7 +161,7 @@ section #row3 #col1 p {
 }
 
 footer #col1 {
-    background-color: darkmagenta;
+    background-color: #AAA5DC;
     min-height: 40vh;
     display: flex;
     justify-content: center;
