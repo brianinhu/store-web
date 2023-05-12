@@ -1,7 +1,7 @@
 body {
     margin: 0;
     min-height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif !important; 
 }
 
 header-top #col1 {
@@ -10,6 +10,7 @@ header-top #col1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0;
 }
 
 header-top #col1 p {
@@ -19,101 +20,109 @@ header-top #col1 p {
 }
 
 header-button #col1 {
-    background-color: #fff;
+    background-color: #4F2CF8;
     height: 15vh;
     text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+header-button form {
+    width: 700px;
 }
 
 header-button .logo img {
-    width: 100px;
+    max-width: 80px;
 }
 
-header-button nav {
+header-button #nav-secundario {
     display: flex;
     color: #FEFEDF;
     font-weight: 500;
 }
 
-header-button nav a {
-    margin-right: 1rem;
+header-button #nav-secundario a {
+    margin: 0.5rem;
 }
 
-header-button nav a:hover > i, header-button nav a:hover > span{
+header-button #nav-secundario a:hover > i, header-button #nav-secundario a:hover > span{
     color: #f0bf0f;
-    transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in;
 }
 
-header-button nav span {
+header-button #nav-secundario span {
     display: block;
 }
 
-header-button nav i {
+header-button #nav-secundario i {
     font-size: 2rem;
 }
 
-nav .col-3 {
+#nav-secundario .col-3 {
     background-color: #FEFEDF;
 }
 
-nav #col1 {
-    height: 10vh;
-    text-align: center;
+#nav-principal .row div {
+    padding: 0;
+}
+
+#nav-principal a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 0.5rem;
+}
+
+#nav-principal a:hover {
+    background-color: #4F2CF8;
+    border: 1px solid #4F2CF8;
+    color: #FEFEDF;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: all 0s ease-in-out;
+}
+
+#nav-principal .row {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FEFEDF;
+    height: 6vh;
+}
+
+#nav-principal span {
+    width: 1px;
+    height: 50%;
+    margin: 0.2rem;
+    padding: 0rem;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+#nav-principal #col1 {
+    width: 152px;
+    display: inline-block;
     justify-content: center;
     align-items: center;
 }
 
-nav #col1 p {
-    margin: 0;
-    font-size: 1rem;
-    color: #fff;
-}
-
-nav #col2 {
-    height: 10vh;
-    text-align: center;
-    display: flex;
+#nav-principal #col2 {
+    width: 85px;
+    display: inline-block;
     justify-content: center;
     align-items: center;
 }
 
-nav #col2 p {
-    margin: 0;
-    font-size: 1rem;
-    color: #fff;
-}
-
-nav #col3 {
-    height: 10vh;
-    text-align: center;
-    display: flex;
+#nav-principal #col3 {
+    width: 100px;
+    display: inline-block;
     justify-content: center;
     align-items: center;
-}
-
-nav #col3 p {
-    margin: 0;
-    font-size: 1rem;
-    color: #fff;
-}
-
-nav #col4 {
-    height: 10vh;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-nav #col4 p {
-    margin: 0;
-    font-size: 1rem;
-    color: #fff;
 }
 
 section #row1 #col1 {
